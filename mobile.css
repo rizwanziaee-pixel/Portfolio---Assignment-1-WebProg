@@ -1,0 +1,30 @@
+
+body {
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+nav ul li {
+  display: block;
+  margin: 8px 0;
+}
+nav ul li a {
+  display: block;
+  padding: 10px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 6px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 10px;
+  font-size: 1rem;
+}
