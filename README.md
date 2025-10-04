@@ -5,5 +5,5 @@ It showcases a Homepage, About me, Projects and a Contact Me page.
 Done and Designed using HTML5 and CSS3 within Visual Studio Code.
 
 ## How to View
-1. Download this repository:
+1. Download this repository: 
  
