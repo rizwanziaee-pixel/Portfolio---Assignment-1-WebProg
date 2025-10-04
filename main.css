@@ -1,3 +1,39 @@
-body{
-    background: linear-gradient(90deg,red , purple )
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(90deg, red, purple);
+}
+
+/* nav styles */
+.main-nav {
+  background: rgba(0,0,0,0.2);
+  padding: 10px 0;
+  text-align: center;
+}
+
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin: 0 12px;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.main-nav a:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+.main-nav a.active {
+  background: rgba(255,255,255,0.3);
 }
